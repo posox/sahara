@@ -14,7 +14,7 @@ License for the specific language governing permissions and limitations
 under the License.
 -->
 
-The migrations in alembic_migrations/versions contain the changes needed to migrate
+The migrations in `alembic_migrations/versions` contain the changes needed to migrate
 between Sahara database revisions. A migration occurs by executing a script that
 details the changes needed to upgrade or downgrade the database. The migration scripts
 are ordered so that multiple scripts can run sequentially. The scripts are executed by
